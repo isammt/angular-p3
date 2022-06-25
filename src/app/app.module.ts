@@ -8,10 +8,12 @@ import { RouterModule } from '@angular/router';
 import { IsabellaListServiceService } from './isabella-list-service.service';
 import { IsabellaHomeComponentComponent } from './isabella-home-component/isabella-home-component.component';
 import { IsabellaListComponentComponent } from './isabella-list-component/isabella-list-component.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   imports: [
     BrowserModule,
+    HttpClientModule,
     FormsModule,
     RouterModule.forRoot([
       {
